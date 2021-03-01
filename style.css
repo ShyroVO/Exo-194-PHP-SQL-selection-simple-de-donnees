@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+.contenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contenu div {
+    margin: 1rem;
+    font-size: 1rem;
+    width: 10rem;
+    height: 10rem;
+    border: solid black 2px;
+}
